@@ -32,7 +32,6 @@ A full-stack Web App with Flask and Boostrap which empowers Venues and Artists t
   ├── error.log
   ├── forms.py *** Your forms
   ├── models.py  *** Your SQL Alchemy models
-  ├── requirements.txt *** The dependencies we need to install with "pip3 install -r requirements.txt"
   ├── static
   │   ├── css 
   │   ├── font
