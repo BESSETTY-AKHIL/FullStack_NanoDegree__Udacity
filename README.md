@@ -1,6 +1,4 @@
-# FullStack_WebDevelopment (Nanodegree_Udacity)
-## `Project submission`
-
+# FullStack_WebDevelopment (Nanodegree_Udacity)       
 
 ## The Fyyur: Artist Booking Site
 
