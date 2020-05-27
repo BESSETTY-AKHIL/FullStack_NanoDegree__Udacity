@@ -30,12 +30,12 @@ A full-stack Web App with Flask and Boostrap which empowers Venues and Artists t
                     "python app.py" to run after installing dependences
   ├── config.py *** Database URLs, CSRF generation, etc
   ├── error.log
+  ├── fabfile.py
   ├── forms.py *** Your forms
   ├── models.py  *** Your SQL Alchemy models
   ├── static
   │   ├── css 
   │   ├── font
-  │   ├── ico
   │   ├── img
   │   └── js
   └── templates
