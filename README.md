@@ -75,3 +75,21 @@ Looking to go above and beyond? This is the right section for you! Here are some
 *  Implement artist availability. An artist can list available times that they can be booked. Restrict venues from being able to create shows with artists during a show time that is outside of their availability.
 * Show Recent Listed Artists and Recently Listed Venues on the homepage, returning results for Artists and Venues sorting by newly created. Limit to the 10 most recently listed items.
 * Implement Search Artists by City and State, and Search Venues by City and State. Searching by "San Francisco, CA" should return all artists or venues in San Francisco, CA.
+
+Development Setup
+First, install Flask if you haven't already.
+
+$ cd ~
+$ sudo pip3 install Flask
+To start and run the local development server,
+
+Initialize and activate a virtualenv:
+$ cd YOUR_PROJECT_DIRECTORY_PATH/
+$ virtualenv --no-site-packages env
+$ source env/bin/activate
+Install the dependencies:
+$ pip install -r requirements.txt
+Run the development server:
+$ export FLASK_APP=myapp
+$ export FLASK_ENV=development # enables debug mode
+$ python3 app.py
